@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Дімідій</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#zaslugy">Заслуги</a></li>
+                <li><a href="#videvo">відево</a></li>
+                <li><a href="https://rt.pornhub.com/categories/hentai?o=mv">любименьке</a></li>
+                <li><a href="#opusk">Попущения</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="course" id=zaslugy>
+        <h2>Заслуги Діфлофозавра</h2>
+        <section class="courseheader">
+            <div>
+             <h3>Вкрав сіпіху</h3>
+             <img src="materials/kejual.jpg">
+            </div>
+            <div>
+                 <h3>передав собакі сіфіліс</h3>
+                 <img src="materials/sobaken.jpg">
+             </div>
+            <div>
+                 <h3>відростив шляпу</h3>
+                 <img src="materials/shlypa.jpg">
+            </div>
+            <div> 
+                 <h3>розбився на машині прямо в сто егорки</h3>
+                 <img src="materials/machina.jpg">
+            </div>
+
+        </section>
+
+    </section>
+    <section class="course">
+        <h2>відево</h2>
+        <section class="courseheader" id="videvo">
+         <div>
+            <h3>бой жоскі</h3>
+            <video controls>
+            <source src="materials/boi.mp4" type="video/mp4">
+            Ваш браузер не підтримує відео.
+            </video>
+        </div>
+        <div>
+            <h3>хз забавно</h3>
+            <video controls>
+            <source src="materials/xz.MP4" type="video/mp4">
+            Ваш браузер не підтримує відео.
+            </video>
+        </div>
+        </section>
+    </section>
+    <section class="course">
+        <h2>опуск</h2>
+        <section class="courseheader" id="opusk">
+         <div>
+            <video controls>
+            <source src="materials/video.mp4" type="video/mp4">
+            Ваш браузер не підтримує відео.
+            </video>
+        </div>
+        </section>
+    </section>
+    <footer class="report-footer">
+  <a href="https://www.instagram.com/dimaswx.dd/">пожалуваться</a>
+</footer>
+    
+    <script>
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach(video => {
+    video.addEventListener("play", () => {
+      videos.forEach(otherVideo => {
+        if (otherVideo !== video) {
+          otherVideo.pause();
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
